@@ -3,6 +3,72 @@
 <head>
     <title>Kolibri Hub Documentation</title>
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+div.main-body {
+	display: grid;
+	grid-template-columns: minmax(300px, auto)1fr;
+	grid-template-areas: "navbar mainContent";
+	grid-gap: 20px;
+}
+
+nav#navbar {
+	grid-area: navbar;
+	position: fixed;
+}
+
+nav#navbar a {
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 10px 0;
+	text-decoration: none;
+	color: black;
+}
+
+nav#navbar a:hover {
+	color: #BC131F;
+}
+
+main#main-doc {
+	grid-area: mainContent;
+}
+
+header {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+code {
+	background-color: #CCC;
+	border: solid 1px black;
+	display: block;
+	padding: 20px;
+}
+
+nav#navbar .links .menulink {
+	font-size: 16px;
+	color: #BC131F;
+	border: none;
+}
+
+nav#navbar .links .menulink-active {
+	font-size: 16px;
+	color: #005577;
+	border: 1px solid #005577;
+}
+
+nav#navbar .links .menulink-active:hover {
+	color: #227799;
+	border: 1px solid #227799;
+}
+
+nav#navbar .links .menulink:hover {
+	color: #005577;
+	border: none;
+	text-decoration: underline;
+}
+
+	</style>
 </head>
 <body>
 	<div class="main-body">

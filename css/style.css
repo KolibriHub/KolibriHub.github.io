@@ -10,7 +10,7 @@ nav#navbar {
 	position: fixed;
 }
 
-nav#navbar a {
+nav#navbar nav-link {
 	display: block;
 	border: 1px solid #005577;
 	padding: 5px;
@@ -30,10 +30,12 @@ header {
 
 code {
 	background-color: #CCC;
+	border: solid 1px round;
 	display: block;
 	padding: 20px;
-};
+}
 
 .menulink {
+	font-size: 16px;
 	color: #BC131F;
 }

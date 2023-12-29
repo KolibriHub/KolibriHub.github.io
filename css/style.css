@@ -39,3 +39,8 @@ code {
 	font-size: 16px;
 	color: #BC131F;
 }
+
+.menulink-active {
+	font-size: 16px;
+	color: #005577;
+}

@@ -12,7 +12,7 @@ nav#navbar {
 
 nav#navbar a {
 	display: block;
-	border: 1px solid black;
+	border: 1px solid #005577;
 	padding: 5px;
 	margin: 10px 0;
 	text-decoration: none;
